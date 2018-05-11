@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3859274D19AC34F12E7FB6A1 /* Pods_almofireGET_Method.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD5B976FED875F2BABB714D4 /* Pods_almofireGET_Method.framework */; };
 		8F9FEA041FE916250001185C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9FEA031FE916250001185C /* AppDelegate.swift */; };
 		8F9FEA061FE916250001185C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9FEA051FE916250001185C /* ViewController.swift */; };
 		8F9FEA091FE916250001185C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F9FEA071FE916250001185C /* Main.storyboard */; };
@@ -14,6 +15,12 @@
 		8F9FEA0E1FE916250001185C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F9FEA0C1FE916250001185C /* LaunchScreen.storyboard */; };
 		8F9FEA191FE916260001185C /* almofireGET_MethodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9FEA181FE916260001185C /* almofireGET_MethodTests.swift */; };
 		8F9FEA241FE916260001185C /* almofireGET_MethodUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9FEA231FE916260001185C /* almofireGET_MethodUITests.swift */; };
+		8F9FEA311FE916950001185C /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F9FEA321FE916950001185C /* Alamofire.framework */; };
+		8F9FEA341FE920BE0001185C /* usercell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9FEA331FE920BE0001185C /* usercell.swift */; };
+		8F9FEA361FEA57F30001185C /* user.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9FEA351FEA57F30001185C /* user.swift */; };
+		F1E317C7200DD91000866F5D /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E317C6200DD91000866F5D /* APIManager.swift */; };
+		F1E317C9200E008D00866F5D /* constantFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E317C8200E008D00866F5D /* constantFile.swift */; };
+		F1E317CB200E078700866F5D /* usertable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E317CA200E078700866F5D /* usertable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2D812FE0FFD835AAA1CF42AF /* Pods-almofireGET Method.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-almofireGET Method.debug.xcconfig"; path = "Pods/Target Support Files/Pods-almofireGET Method/Pods-almofireGET Method.debug.xcconfig"; sourceTree = "<group>"; };
 		8F9FEA001FE916250001185C /* almofireGET Method.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "almofireGET Method.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F9FEA031FE916250001185C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8F9FEA051FE916250001185C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +55,14 @@
 		8F9FEA1F1FE916260001185C /* almofireGET MethodUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "almofireGET MethodUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F9FEA231FE916260001185C /* almofireGET_MethodUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = almofireGET_MethodUITests.swift; sourceTree = "<group>"; };
 		8F9FEA251FE916260001185C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F9FEA321FE916950001185C /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F9FEA331FE920BE0001185C /* usercell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = usercell.swift; sourceTree = "<group>"; };
+		8F9FEA351FEA57F30001185C /* user.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = user.swift; sourceTree = "<group>"; };
+		925A104993FDDD2B56AC61EC /* Pods-almofireGET Method.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-almofireGET Method.release.xcconfig"; path = "Pods/Target Support Files/Pods-almofireGET Method/Pods-almofireGET Method.release.xcconfig"; sourceTree = "<group>"; };
+		CD5B976FED875F2BABB714D4 /* Pods_almofireGET_Method.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_almofireGET_Method.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1E317C6200DD91000866F5D /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		F1E317C8200E008D00866F5D /* constantFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = constantFile.swift; sourceTree = "<group>"; };
+		F1E317CA200E078700866F5D /* usertable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = usertable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +70,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F9FEA311FE916950001185C /* Alamofire.framework in Frameworks */,
+				3859274D19AC34F12E7FB6A1 /* Pods_almofireGET_Method.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +92,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A56FD99BFBBD0678A1A5BDC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8F9FEA321FE916950001185C /* Alamofire.framework */,
+				CD5B976FED875F2BABB714D4 /* Pods_almofireGET_Method.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8F9FE9F71FE916250001185C = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +108,8 @@
 				8F9FEA171FE916260001185C /* almofireGET MethodTests */,
 				8F9FEA221FE916260001185C /* almofireGET MethodUITests */,
 				8F9FEA011FE916250001185C /* Products */,
+				E3460393E03996C377260B91 /* Pods */,
+				0A56FD99BFBBD0678A1A5BDC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +128,11 @@
 			children = (
 				8F9FEA031FE916250001185C /* AppDelegate.swift */,
 				8F9FEA051FE916250001185C /* ViewController.swift */,
+				F1E317C8200E008D00866F5D /* constantFile.swift */,
+				F1E317C6200DD91000866F5D /* APIManager.swift */,
+				F1E317CA200E078700866F5D /* usertable.swift */,
+				8F9FEA351FEA57F30001185C /* user.swift */,
+				8F9FEA331FE920BE0001185C /* usercell.swift */,
 				8F9FEA071FE916250001185C /* Main.storyboard */,
 				8F9FEA0A1FE916250001185C /* Assets.xcassets */,
 				8F9FEA0C1FE916250001185C /* LaunchScreen.storyboard */,
@@ -125,6 +159,15 @@
 			path = "almofireGET MethodUITests";
 			sourceTree = "<group>";
 		};
+		E3460393E03996C377260B91 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2D812FE0FFD835AAA1CF42AF /* Pods-almofireGET Method.debug.xcconfig */,
+				925A104993FDDD2B56AC61EC /* Pods-almofireGET Method.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +175,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8F9FEA281FE916260001185C /* Build configuration list for PBXNativeTarget "almofireGET Method" */;
 			buildPhases = (
+				5B13FE6A9AD4412B506A2558 /* [CP] Check Pods Manifest.lock */,
 				8F9FE9FC1FE916250001185C /* Sources */,
 				8F9FE9FD1FE916250001185C /* Frameworks */,
 				8F9FE9FE1FE916250001185C /* Resources */,
+				100CE939914C84DAF1E57A1D /* [CP] Embed Pods Frameworks */,
+				81218B7E5DD09889CE334FC0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -254,13 +300,74 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		100CE939914C84DAF1E57A1D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-almofireGET Method/Pods-almofireGET Method-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-almofireGET Method/Pods-almofireGET Method-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5B13FE6A9AD4412B506A2558 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-almofireGET Method-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		81218B7E5DD09889CE334FC0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-almofireGET Method/Pods-almofireGET Method-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8F9FE9FC1FE916250001185C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F9FEA361FEA57F30001185C /* user.swift in Sources */,
 				8F9FEA061FE916250001185C /* ViewController.swift in Sources */,
+				F1E317C7200DD91000866F5D /* APIManager.swift in Sources */,
+				F1E317CB200E078700866F5D /* usertable.swift in Sources */,
 				8F9FEA041FE916250001185C /* AppDelegate.swift in Sources */,
+				8F9FEA341FE920BE0001185C /* usercell.swift in Sources */,
+				F1E317C9200E008D00866F5D /* constantFile.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,9 +531,11 @@
 		};
 		8F9FEA291FE916260001185C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D812FE0FFD835AAA1CF42AF /* Pods-almofireGET Method.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WYMKKWGVGB;
 				INFOPLIST_FILE = "almofireGET Method/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Com.nikhilboriwaletor.almofireGET-Method";
@@ -438,9 +547,11 @@
 		};
 		8F9FEA2A1FE916260001185C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 925A104993FDDD2B56AC61EC /* Pods-almofireGET Method.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WYMKKWGVGB;
 				INFOPLIST_FILE = "almofireGET Method/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Com.nikhilboriwaletor.almofireGET-Method";
